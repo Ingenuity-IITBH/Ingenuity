@@ -7,6 +7,7 @@ import HallOfFame from "./pages/HallOfFame";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import { ThemeProvider } from 'styled-components';
+import { GlobalStyle } from './GlobalStyle';
 
 const App = () => {
   const theme = {
@@ -32,6 +33,7 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyle />
       <BrowserRouter>
         <Header />
         <Routes>

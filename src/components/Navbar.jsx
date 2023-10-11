@@ -1,30 +1,59 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
 
 const Navbar = () => {
+    const Nav =styled.nav`
+        .navbar-list{
+            display: flex;
+            gap: 4.8rem;
+
+            li{
+                list-style: none;
+
+                .navbar-link {
+                    &:link,
+                    &:visited {
+                      display: inline-block;
+                      text-decoration: none;
+                      font-size: 1.8rem;
+                      text-transform: uppercase;
+                      color: ${({ theme }) => theme.colors.black};
+                      transition: color 0.3s linear;
+                    }
+          
+                    &:hover,
+                    &:active {
+                      color: ${({ theme }) => theme.colors.helper};
+                    }
+                  }
+            }
+        }    
+    `;
+
     return(
-        <nav>
+        <Nav>
             <div className='menuIcon'>
                 <ul className='navbar-list'>
                     <li>
-                        <NavLink to='/'>Home</NavLink>
+                        <NavLink className="navbar-link" to='/'>Home()</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/events'>Events</NavLink>
+                        <NavLink className="navbar-link" to='/events'>Events()</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/team'>Team</NavLink>
+                        <NavLink className="navbar-link" to='/team'>Team()</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/halloffame'>hall Of Fame</NavLink>
+                        <NavLink className="navbar-link" to='/halloffame'>Hall Of Fame()</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/contactus'>Contact Us</NavLink>
+                        <NavLink className="navbar-link" to='/contactus'>Contact Us()</NavLink>
                     </li>
                 </ul>
             </div>
-        </nav>
-    )
-}
+        </Nav>
+    );
+};
 
 export default Navbar;
