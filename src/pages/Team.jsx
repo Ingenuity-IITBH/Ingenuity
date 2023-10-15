@@ -28,13 +28,13 @@ const Team = () => {
 
       <div style={{ ...teamMemberStyle}} className="coordinators">
         <Block
-          name="Coordinator 1"
+          name="Arnav Gautam"
           imageSrc= {dummy}
           linkedin="https://www.linkedin.com/profile1"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Coordinator 2"
+          name="Omm Prakash Sahoo"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
@@ -44,19 +44,19 @@ const Team = () => {
       <h2>Mentors</h2>
       <div style={{ ...teamMemberStyle, flexWrap: "wrap" }} className="mentors">
         <Block
-          name="Mentor 1"
+          name="Pravin Shankhapal"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile1"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Mentor 2"
+          name="Manish Salunkhe"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Mentor 3"
+          name="Akshay Wairagade"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
@@ -66,55 +66,79 @@ const Team = () => {
       <h2>Core Members</h2>
       <div style={{ ...teamMemberStyle, flexWrap: "wrap" }} className="cores">
         <Block
-          name="Core Member 1"
+          name="JV Aditya"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile1"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Core Member 2"
+          name="Mitul Vardhan"
+          imageSrc={dummy}
+          linkedin="https://www.linkedin.com/profile1"
+          codeforces="https://codeforces.com"
+        />
+        <Block
+          name="Dhruv Gupta"
+          imageSrc={dummy}
+          linkedin="https://www.linkedin.com/profile1"
+          codeforces="https://codeforces.com"
+        />
+        <Block
+          name="Ayudh Abhale"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Core Member 3"
+          name="Nikhil Shrey"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Core Member 4"
+          name="Lasya"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Core Member 5"
+          name="Mohd Adil"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Core Member 6"
+          name="Garima Tata"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Core Member 7"
+          name="Anjali Patil"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Core Member 8"
+          name="Manopriya Mondal"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
         />
         <Block
-          name="Core Member 9"
+          name="Raj Mohammad"
+          imageSrc={dummy}
+          linkedin="https://www.linkedin.com/profile2"
+          codeforces="https://codeforces.com"
+        />
+        <Block
+          name="Naga Yashwanth"
+          imageSrc={dummy}
+          linkedin="https://www.linkedin.com/profile2"
+          codeforces="https://codeforces.com"
+        />
+        <Block
+          name="Ayush Kumar Mishra"
           imageSrc={dummy}
           linkedin="https://www.linkedin.com/profile2"
           codeforces="https://codeforces.com"
