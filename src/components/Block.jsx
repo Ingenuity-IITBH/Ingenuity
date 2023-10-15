@@ -7,9 +7,9 @@ const Block = ({ name, imageSrc, linkedin, codeforces }) => {
 
   return (
     <div className="block" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 'auto', margin: 'auto', position: 'relative'}}>
-       <div style={{ width: '300px', height: `${300 * aspectRatio}px`, borderRadius: '50%', overflow: 'hidden' }}>
-        <img src={imageSrc} alt={`${name}`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-      </div>
+        <div style={{marginLeft: 50, marginRight: 50, width: '200px', height: `${200 * aspectRatio}px`, borderRadius: '50%', overflow: 'hidden' }}>
+          <img src={imageSrc} alt={`${name}`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+        </div>
       <p>{name}</p>
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '10px', margin: '10px' }}>
         <div style={{ margin: '10px' }}>
