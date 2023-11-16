@@ -26,7 +26,7 @@ h2{
     font-size: 4.4rem;
     font-weight: 300;
     white-space: normal;
-    text-allign: center;
+    text-align: center;
 }
 
 h3{
@@ -50,5 +50,6 @@ a{
 li{
     list-style: none;
 }
+
 
 `;
