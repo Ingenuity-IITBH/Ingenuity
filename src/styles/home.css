@@ -10,8 +10,8 @@
     background-size: 100% 100%;
 }
 .Home_page h1 {
-    font-size: 100px;
-    color: aliceblue;
+    font-size: flex;
+    color: rgba(42,27,117,255);
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Playfair Display', serif;
@@ -28,7 +28,7 @@
 .Home_page img {
     width: 293px;
     height: 276px;
-    mix-blend-mode:luminosity;
+    mix-blend-mode: luminosity;
 }
 
 @media only screen and (max-width: 633px) {
@@ -37,7 +37,7 @@
         word-spacing: 3px;
     }
     .Home_page h1 {
-        font-size: 70px;
+        font-size: flex;
     }
     .Home_page h3 {
         font-size: 20px;
@@ -52,7 +52,7 @@
 
   @media only screen and (max-width: 400px) {
     .Home_page h1 {
-        font-size: 40px;
+        font-size: flex;
     }
     .Home_page img {
         width: 80%;
