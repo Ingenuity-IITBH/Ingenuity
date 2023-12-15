@@ -11,7 +11,7 @@
 }
 .Home_page h1 {
     font-size: flex;
-    color: rgba(42,27,117,255);
+    color: aliceblue;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Playfair Display', serif;
@@ -28,7 +28,6 @@
 .Home_page img {
     width: 293px;
     height: 276px;
-    mix-blend-mode: luminosity;
 }
 
 @media only screen and (max-width: 633px) {
